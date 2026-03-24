@@ -144,8 +144,11 @@ All URIs are relative to *https://mandrillapp.com/api/1.3*
 | **metadata.list** | /metadata/list |
 | **metadata.update** | /metadata/update |
 | **rejects.add** | /rejects/add |
+| **rejects.addSms** | /rejects/add-sms |
 | **rejects.delete** | /rejects/delete |
+| **rejects.deleteSms** | /rejects/delete-sms |
 | **rejects.list** | /rejects/list |
+| **rejects.listSms** | /rejects/list-sms |
 | **senders.addDomain** | /senders/add-domain |
 | **senders.checkDomain** | /senders/check-domain |
 | **senders.deleteDomain** | /senders/delete-domain |
@@ -177,9 +180,6 @@ All URIs are relative to *https://mandrillapp.com/api/1.3*
 | **urls.addTrackingDomain** | /urls/add-tracking-domain |
 | **urls.checkTrackingDomain** | /urls/check-tracking-domain |
 | **urls.deleteTrackingDomain** | /urls/delete-tracking-domain |
-| **urls.list** | /urls/list |
-| **urls.search** | /urls/search |
-| **urls.timeSeries** | /urls/time-series |
 | **urls.trackingDomains** | /urls/tracking-domains |
 | **users.info** | /users/info |
 | **users.ping** | /users/ping |
@@ -190,9 +190,6 @@ All URIs are relative to *https://mandrillapp.com/api/1.3*
 | **webhooks.info** | /webhooks/info |
 | **webhooks.list** | /webhooks/list |
 | **webhooks.update** | /webhooks/update |
-| **whitelists.add** | /whitelists/add |
-| **whitelists.delete** | /whitelists/delete |
-| **whitelists.list** | /whitelists/list |
 
 
 ## Additional Libraries
